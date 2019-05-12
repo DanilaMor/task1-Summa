@@ -11,7 +11,7 @@ function summa(){
     }
 
     if (B.indexOf(".") != -1){
-        text = A.split(".")[1];
+        text = B.split(".")[1];
         if (numberOfSimbols < text.length){
             numberOfSimbols = text.length
         }
